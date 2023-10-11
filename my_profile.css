@@ -1,0 +1,104 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+    background-image: url(purple_flowers.jpeg); 
+}
+
+header {
+    background-color: rgb(112, 150, 188);
+    border-bottom: 3px solid lavender;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(112, 150, 188);
+    border-top: 3px solid lavender;
+    text-align: center;
+    padding: 10px;
+}
+
+article {
+    background-color: rgb(184, 107, 184);
+    margin: 0 auto 20px;
+    border: 2px solid rgb(112, 150, 188);
+    padding: 50px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+p {
+    color: rgb(187, 194, 166);
+    font-size: 20px;
+}
+
+nav {
+    list-style-type: none;
+}
+.nav-bar, .nav-link {
+    display: inline;
+
+}
+
+#brand-title {
+    margin-right: 20px;
+}
+
+a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(142, 98, 174);
+}
+
+main {
+    text-align: center;
+}
+
+form {
+    border: 2px dotted black;
+    width: 30%;
+    margin: 0 auto 20px;
+    border-radius: 20px;
+    padding:20px;
+}
+
+.form-label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#profile-picture {
+    border-radius: 150;
+    border: 2px solid rgb(87, 16, 137);
+}
+
+img {
+    width: 200px;
+}
+
+h1 {
+    color: rgb(184, 107, 184);
+}
+
+h2 {
+    font-size: 25px;
+    color: rgb(87, 16, 137);
+}
+
+/*.p2::after{
+    height: 50px;
+    width: 50px;
+    content: url(family.jpeg);
+}
